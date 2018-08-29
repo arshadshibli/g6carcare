@@ -1,0 +1,160 @@
+@media screen and (max-width:375px )
+{
+
+header
+{
+
+width: 100%;
+align-items: center;
+}
+#logo
+{
+	height: 15vh;
+	width: 50%;
+}
+
+nav
+{
+	width: 50%;
+	padding-left: 0;
+	margin: auto;
+}
+nav ul
+{
+	padding: 0;
+}
+.social
+{
+	font-size: 30px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.otherpage
+{
+	display: none;
+}
+#menu
+{
+	display:block;
+	font-size: 30px;
+	padding-right: 10px;
+}
+
+/* ...........................main............................ */
+
+main
+{
+	background-image: url("../img/mainmobile.jpg");
+	background-size: contain;
+	padding-top: 19vh;
+	height: 76vh;
+}
+main h1
+{
+	font-size: 15vw;
+}
+main h4
+{
+	font-size: 7vw;
+}
+
+
+
+/* .............................section.......................... */
+section
+{
+	flex-direction: column;
+}
+.box
+{
+	flex-basis: 100%;
+}
+.image
+{
+	height: 0vh;
+}
+.text
+{
+	height: 31vh;
+	border-bottom: 0;
+}
+
+.box1a{order: 2;}
+.box1b{order:1;}
+.box2a{order:3;}
+.box2b{order: 4;}
+.box3a{order: 6;}
+.box3b{order:5;}
+.box4a{order:7;}
+.box4b{order:8;}
+.box5a{order: 10;}
+.box5b{order: 9;}
+.box6a{order: 11;}
+.box6b{order:12;}
+.box7a{order:14;}
+.box7b{order:13;}
+.box8a{order:15;}
+.box8b{order:16;}
+
+/* ............................footer................. */
+footer 
+{
+  flex-direction: row;
+}
+
+.fbox{
+	height: auto;
+	flex-basis: 50%;
+}
+
+#address
+{
+	/* border-bottom: 1px dashed red; */
+	flex-basis: 100%;
+}
+
+#address h2
+{
+	
+font-size: 11vw;
+
+}
+#address h5
+{
+	font-size: 5vw;
+}
+#address h6
+{
+	font-size: 4vw;
+}
+#contact
+{
+	padding-bottom: 5vw;
+}
+#contact h3
+{
+margin-top: 2vh;
+font-size: 5vw;
+
+}
+#contact h5
+{
+	font-size: 3vw;
+}
+#contact p
+{
+	font-size: 2vw;
+}
+#links h3
+{
+	margin-top: 2vh;
+	font-size: 5vw;
+}
+
+#links h5
+{
+	font-size: 3vw;
+}
+
+}
+

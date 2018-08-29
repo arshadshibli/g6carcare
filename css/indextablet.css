@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px)
+{
+
+/* .header............ */
+
+nav ul li
+{
+	font-size: 3vw;
+}
+nav ul
+{
+	padding: 0;
+}
+
+#logo
+{
+	height: 12vh;
+}
+
+/* ...........main..... */
+
+main
+{
+	padding-top: 15vh;
+	height: 81vh;
+	background-size: cover;
+}
+main  h1
+{
+	padding-top: 13vh;
+  font-size: 10vw;
+}
+main h4
+{
+	font-size: 4vw;
+}
+
+/* .........section....................... */
+
+.box
+{
+	height: 300px;
+}
+
+/* ............footer................... */
+#address h2
+{
+  font-size: 4vw;
+}
+
+#address h5
+{
+	font-size: 2vw;
+}
+
+#address h6
+{
+	font-size: 1.5vw;
+}
+
+#contact h3
+{
+	font-size: 3vw;
+}
+
+#contact h5
+{
+	font-size: 1.5vw;
+}
+
+#links h3
+{
+ font-size: 3vw;
+}
+
+#links h5
+{
+	font-size: 1.5vw;
+}
+
+}

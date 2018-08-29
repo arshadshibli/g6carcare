@@ -1,0 +1,250 @@
+body
+{
+	margin:0;
+}
+header
+{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: white;
+    z-index: 100;
+    border-bottom: 0.4vh solid #ffe6e6;
+}
+
+#logo
+{
+	padding-top: 2vh;
+	height: 10vh;
+	width: 20%;
+	padding-bottom: 1vh;
+}
+
+nav
+{
+	/* border: 1px solid black */;
+	width: 55%;
+	text-align: right;
+	padding-top: 2vh;
+	padding-left: 20%;
+}
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: flex-end;
+	justify-content: space-between;
+}
+nav ul li
+{
+	list-style: none;
+	font-size: 2vw;
+	display: inline;
+
+	
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #021118;
+	text-shadow: 1px 1px 2px red;
+}
+i
+{
+	color: red;
+	text-shadow: 1px 1px 2px black;
+}
+nav ul li a:hover
+{
+	color: white;
+	/* background-color: #330000; */
+}
+
+header nav i:hover
+{
+	color: white;
+	text-shadow: -1px -1px 2px red;
+	/* background-color: #330000; */
+}
+#menu
+{
+	display: none;
+}
+
+/* Main........................................ */
+main
+{
+	background-image: url("../img/mainpage.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-clip: content-box;
+	background-origin: content-box;
+	height: 83vh;
+	padding-top:13vh;
+	text-align: center;
+	border-bottom: 5vh solid white;
+
+}
+ main h1
+ {
+ 	font-family: 'Courgette', cursive;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	padding-top: 23vh;
+ 	align-self: center;
+ 	letter-spacing: 4px;
+ 	font-size: 6vw;
+ 	text-shadow: 1px 1px 5px red,
+ 	             -1px -1px 5px red;
+ 	           
+ 	z-index: 1000;
+ 	color:white;
+ }
+ main h4
+ {
+ 	margin-top: 1vh;
+ 	color: red;
+ 	z-index: 1000;
+ 	letter-spacing: 5px;
+ 	font-size: 2vw;
+ 	text-shadow: 1px 1px 2px white,-1px -1px 2px black;
+ }
+ #mask
+ {
+ 	background-color: rgba(20,30,40,0.6);
+ 	height: 100%;
+ 	width: 100%;
+ }
+/*Flexbox*/
+section
+{
+	border-top: 5px solid #021118;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.box
+{
+	height: 70vh;
+	border-bottom: 5px solid #021118;
+}
+.text
+{
+	flex-basis: 33.33%;
+	font-size: 2vw;
+	text-align: center;
+	text-shadow: 1px 1px 2px red;
+	
+}
+.text h2
+{
+	position: relative;
+	top:33%;
+	bottom: 33%;
+}
+.image
+{
+	flex-basis: 66.66%;
+}
+.image img
+{
+	height: 100%;
+	width: 100%;
+}
+/* ................footer........................ */
+footer
+{
+   background-color: #021118;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: stretch;
+   align-content: center;
+}
+.fbox
+{
+	text-align: center;
+	height: 30vh;
+	flex-basis: 30%;
+	flex :1;
+	vertical-align: middle;
+	align-items: center;
+	color: white;
+}
+#address
+{
+
+}
+#address h2
+{
+font-family: 'Courgette', cursive;
+font-size: 3vw;
+margin-bottom: 0;
+margin-top: 5vh;
+}
+#address h5
+{
+	font-size: 1.5vw;
+	margin: 0;
+}
+#address h6
+{
+	font-size: 2vh;
+	margin:1vh;
+}
+#contact h3
+{
+margin-top: 5vh;
+margin-bottom: 1vh;
+font-size: 2vw;
+
+}
+#contact h5
+{
+	padding-bottom: 1vh;
+	margin: 0;
+	font-size: 1vw;
+}
+#contact p
+{
+	font-size: 1vw;
+}
+#links h3
+{
+	margin-top: 5vh;
+	font-size: 2vw;
+	margin-bottom: 1vh;
+}
+#links a
+{
+    
+	text-decoration: none;
+	color: white;
+}
+
+#links h5
+{
+	padding-bottom: 1vh;
+	margin:0;
+	font-size: 1vw;
+}
+#links a:hover,#links  i:hover
+{
+	color: red;
+}
+footer i
+{
+	color: white;
+
+}
+
+
+/* #FA0304  #042D3F*/
+#devider
+{
+	height: 5vh;
+}
