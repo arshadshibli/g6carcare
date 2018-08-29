@@ -1,4 +1,4 @@
-@media screen and (max-width:375px )
+@media screen and (max-width:600px )
 {
 
 header
@@ -21,7 +21,7 @@ nav
 }
 nav ul
 {
-	padding: 0;
+	padding: 5vw;
 }
 .social
 {
@@ -38,6 +38,48 @@ nav ul
 	display:block;
 	font-size: 30px;
 	padding-right: 10px;
+}
+
+.hidden
+{
+	background-color: #021118;
+	padding: 0;
+	text-align: center;
+	position: fixed;
+	width: 40vw;
+	right: 0;
+}
+.hidden li
+{
+	width: 100%;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	display: block;
+	float: none;
+	height: 20px;
+	z-index: 1000;
+	border: 1px solid white;
+}
+
+.hidden li:hover
+{
+	background-color: red;
+	border: 1px solid #021118;
+}
+.hidden a li
+{
+
+	color: white;
+	font-size: 20px;
+}
+
+.hidden a li:hover
+{
+background-color: red;
+}
+#menu:hover + .hidden,.hidden:hover
+{
+	display: block;
 }
 
 /* ...........................main............................ */
@@ -71,7 +113,7 @@ section
 }
 .image
 {
-	height: 0vh;
+	height: 50vh;
 }
 .text
 {

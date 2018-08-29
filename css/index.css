@@ -69,6 +69,11 @@ header nav i:hover
 	text-shadow: -1px -1px 2px red;
 	/* background-color: #330000; */
 }
+.hidden
+{
+	display: none;
+	
+}
 #menu
 {
 	display: none;

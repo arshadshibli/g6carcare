@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px)
+@media screen and (min-width:600px) and (max-width: 900px)
 {
 
 /* .header............ */
@@ -27,7 +27,7 @@ main
 }
 main  h1
 {
-	padding-top: 13vh;
+	padding-top: 23vh;
   font-size: 10vw;
 }
 main h4
