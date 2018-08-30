@@ -10,8 +10,8 @@ header
 	width: 100%;
 	top: 0px;
 	background-color: white;
-    z-index: 100;
-    border-bottom: 0.4vh solid #ffe6e6;
+	z-index: 100;
+	border-bottom: 0.4vh solid #ffe6e6;
 }
 
 #logo
@@ -46,33 +46,34 @@ nav ul li
 
 	
 }
-nav ul li a
+.navitems
 {
 	text-decoration: none;
 	color: #021118;
-	text-shadow: 1px 1px 2px red;
+	text-shadow: 1px 1px 1px red;
 }
 i
 {
 	color: red;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 2px 2px 2px #021118;
 }
-nav ul li a:hover
+.navitems:hover
 {
-	color: white;
+	color: red;
+	text-shadow: 2px 2px 2px #021118;
 	/* background-color: #330000; */
 }
 
 header nav i:hover
 {
-	color: white;
-	text-shadow: -1px -1px 2px red;
+	color: #021118;
+	text-shadow: 1px 1px 2px red;
 	/* background-color: #330000; */
 }
 .hidden
 {
 	display: none;
-	
+
 }
 #menu
 {
@@ -94,36 +95,37 @@ main
 	border-bottom: 5vh solid white;
 
 }
- main h1
- {
- 	font-family: 'Courgette', cursive;
- 	margin-top: 0px;
- 	margin-bottom: 0px;
- 	padding-top: 23vh;
- 	align-self: center;
- 	letter-spacing: 4px;
- 	font-size: 6vw;
- 	text-shadow: 1px 1px 5px red,
- 	             -1px -1px 5px red;
- 	           
- 	z-index: 1000;
- 	color:white;
- }
- main h4
- {
- 	margin-top: 1vh;
- 	color: red;
- 	z-index: 1000;
- 	letter-spacing: 5px;
- 	font-size: 2vw;
- 	text-shadow: 1px 1px 2px white,-1px -1px 2px black;
- }
- #mask
- {
- 	background-color: rgba(20,30,40,0.6);
- 	height: 100%;
- 	width: 100%;
- }
+main h1
+{
+	font-family: 'Courgette', cursive;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 23vh;
+	align-self: center;
+	letter-spacing: 4px;
+	font-size: 6vw;
+	text-shadow: 1px 1px 5px red,
+	-1px -1px 5px red;
+	
+	z-index: 1000;
+	color:white;
+}
+main h4
+{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 1vh;
+	color: red;
+	z-index: 1000;
+	letter-spacing: 5px;
+	font-size: 2vw;
+	text-shadow: 1px 1px 2px white,-1px -1px 2px black;
+}
+#mask
+{
+	background-color: rgba(20,30,40,0.6);
+	height: 100%;
+	width: 100%;
+}
 /*Flexbox*/
 section
 {
@@ -139,6 +141,7 @@ section
 }
 .text
 {
+	font-family: 'Indie Flower', cursive;
 	flex-basis: 33.33%;
 	font-size: 2vw;
 	text-align: center;
@@ -163,33 +166,34 @@ section
 /* ................footer........................ */
 footer
 {
-   background-color: #021118;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: stretch;
-   align-content: center;
+	background-color: #021118;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	align-content: center;
 }
 .fbox
 {
+	/* border: 1px solid white; */
 	text-align: center;
-	height: 30vh;
+	height: auto;
 	flex-basis: 30%;
 	flex :1;
 	vertical-align: middle;
-	align-items: center;
+	align-items: stretch;
 	color: white;
 }
 #address
 {
-
+	padding-bottom: 4vh;
 }
 #address h2
 {
-font-family: 'Courgette', cursive;
-font-size: 3vw;
-margin-bottom: 0;
-margin-top: 5vh;
+	font-family: 'Courgette', cursive;
+	font-size: 3vw;
+	margin-bottom: 0;
+	margin-top: 5vh;
 }
 #address h5
 {
@@ -203,41 +207,48 @@ margin-top: 5vh;
 }
 #contact h3
 {
-margin-top: 5vh;
-margin-bottom: 1vh;
-font-size: 2vw;
+	font-family: 'Slabo 27px', serif;
+
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+	font-size: 2.5vw;
 
 }
 #contact h5
 {
+	font-family: 'Kosugi Maru', sans-serif;
 	padding-bottom: 1vh;
 	margin: 0;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
-#contact p
+#contact 
 {
-	font-size: 1vw;
+	padding-bottom: 1vh;
 }
 #links h3
 {
+	font-family: 'Slabo 27px', serif;
+
 	margin-top: 5vh;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	margin-bottom: 1vh;
 }
-#links a
+#links .navitems
 {
-    
+	
 	text-decoration: none;
 	color: white;
+	text-shadow: none;
 }
 
 #links h5
 {
+	font-family: 'Kosugi Maru', sans-serif;
 	padding-bottom: 1vh;
 	margin:0;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
-#links a:hover,#links  i:hover
+#links .navitems:hover,#links  i:hover
 {
 	color: red;
 }

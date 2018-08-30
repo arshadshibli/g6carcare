@@ -1,81 +1,81 @@
 @media screen and (min-width:600px) and (max-width: 900px)
 {
 
-/* .header............ */
+	/* .header............ */
 
-nav ul li
-{
-	font-size: 3vw;
-}
-nav ul
-{
-	padding: 0;
-}
+	nav ul li
+	{
+		font-size: 3vw;
+	}
+	nav ul
+	{
+		padding: 0;
+	}
 
-#logo
-{
-	height: 12vh;
-}
+	#logo
+	{
+		height: 12vh;
+	}
 
-/* ...........main..... */
+	/* ...........main..... */
 
-main
-{
-	padding-top: 15vh;
-	height: 81vh;
-	background-size: cover;
-}
-main  h1
-{
-	padding-top: 23vh;
-  font-size: 10vw;
-}
-main h4
-{
-	font-size: 4vw;
-}
+	main
+	{
+		padding-top: 15vh;
+		height: 81vh;
+		background-size: cover;
+	}
+	main  h1
+	{
+		padding-top: 23vh;
+		font-size: 10vw;
+	}
+	main h4
+	{
+		font-size: 4vw;
+	}
 
-/* .........section....................... */
+	/* .........section....................... */
 
-.box
-{
-	height: 300px;
-}
+	.box
+	{
+		height: 300px;
+	}
 
-/* ............footer................... */
-#address h2
-{
-  font-size: 4vw;
-}
+	/* ............footer................... */
+	#address h2
+	{
+		font-size: 4vw;
+	}
 
-#address h5
-{
-	font-size: 2vw;
-}
+	#address h5
+	{
+		font-size: 2vw;
+	}
 
-#address h6
-{
-	font-size: 1.5vw;
-}
+	#address h6
+	{
+		font-size: 1.5vw;
+	}
 
-#contact h3
-{
-	font-size: 3vw;
-}
+	#contact h3
+	{
+		font-size: 3vw;
+	}
 
-#contact h5
-{
-	font-size: 1.5vw;
-}
+	#contact h5
+	{
+		font-size: 1.5vw;
+	}
 
-#links h3
-{
- font-size: 3vw;
-}
+	#links h3
+	{
+		font-size: 3vw;
+	}
 
-#links h5
-{
-	font-size: 1.5vw;
-}
+	#links h5
+	{
+		font-size: 1.5vw;
+	}
 
 }
